@@ -19,11 +19,11 @@ ocr图片识别，筛选带字母的图片
 * 迁移数据库-使用模型类生成表
   ```shell
   # 初始化
-    python manager.py db init
+    python main.py db init
   # 生成迁移脚本
-    python manager.py db migrate
+    python main.py db migrate
   # 执行迁移脚本
-    python manager.py db upgrade
+    python main.py db upgrade
   ```
 
  * 执行代码
